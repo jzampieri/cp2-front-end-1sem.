@@ -1,0 +1,11 @@
+/* reset css */
+body{
+                  background-image: linear-gradient(to right, #8Af26F, #56FC8B);
+}
+
+* {
+                  margin: 0;
+                  padding: 0;
+                  box-sizing: border-box;
+                  font-family: 'Source Sans 3', sans-serif;
+}
