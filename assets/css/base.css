@@ -1,6 +1,6 @@
 /* reset css */
 body{
-                  background-image: linear-gradient(to right, #8Af26F, #56FC8B);
+                  background-image:  linear-gradient(to right, #000, #000)
 }
 
 * {
@@ -8,4 +8,19 @@ body{
                   padding: 0;
                   box-sizing: border-box;
                   font-family: 'Source Sans 3', sans-serif;
+}
+
+.descricao img {
+                  height: 3%;
+                  width: 3%;
+                  align-items: in line;
+}
+.base {
+                  display: inline-block;
+}
+
+.vinho img {
+                  height: 10%;
+                  width: 15%;
+                  padding-left: 120px;
 }
