@@ -1,6 +1,7 @@
 /* reset css */
 body{
-                  background-image:  linear-gradient(to right, #000, #000)
+                  background-image:  linear-gradient(to right, #000, #000);
+                  max-width: 1200px;
 }
 
 * {
@@ -11,8 +12,8 @@ body{
 }
 
 .descricao img {
-                  height: 3%;
-                  width: 3%;
+                  height: 4%;
+                  width: 4%;
                   align-items: in line;
 }
 .base {
@@ -20,7 +21,7 @@ body{
 }
 
 .vinho img {
-                  height: 10%;
-                  width: 15%;
+                  height: 25%;
+                  width: 25%;
                   padding-left: 120px;
 }
