@@ -1,6 +1,6 @@
 /* reset css */
 body{
-                  background-image:  linear-gradient(to right, #000, #000);
+                  background-image:  linear-gradient(to left, #340136, #000);
                   max-width: 1200px;
 }
 
@@ -25,3 +25,19 @@ body{
                   width: 25%;
                   padding-left: 120px;
 }
+
+.ficha img{
+                  height: 6%;
+                  width: 6%;
+                  padding-left: 12px;
+                  flex-wrap: wrap;
+                  padding: 10px;
+}
+.ficha-2 img{
+                  height: 6%;
+                  width: 6%;
+                  padding-left: 12px;
+                  flex-wrap: wrap;
+                  padding: 10px;
+}
+                  
