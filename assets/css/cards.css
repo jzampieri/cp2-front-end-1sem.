@@ -38,11 +38,6 @@
     border-radius: 7px;
     height: auto;
 }
-
-.card-item:hover{
-    transform: scale(1.1);
-}
-
 .container-card-2 {
     width: 100%;
     min-height: 100vh;
@@ -78,15 +73,15 @@
     background-color: #0009;
 }
 
+.card-item-2:hover{
+    transform: scale(1.2);
+}
 .card-item-2 img {
     width: 50%;
     border-radius: 7px;
     height: auto;
 }
 
-.card-item-2:hover{
-    transform: scale(1.1);
-}
 
 .container-card-3 {
     width: 100%;
@@ -122,15 +117,12 @@
     margin: 5px;
     background-color: #0009;
 }
-
 .card-item-3 img {
     width: 50%;
     border-radius: 7px;
     height: auto;
 }
-.card-item-3:hover{
-    transform: scale(1.1);
-}
+
 
 .container-card-4 {
     width: 100%;
@@ -139,7 +131,7 @@
     padding:50px 0;
     display: flex;
     flex-direction: row;
-    flex-wrap: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: flex-end;
     row-gap: 20px;
@@ -149,6 +141,7 @@
     margin-top: -525px; 
     margin-left: auto;
     margin-right: 90px;
+    flex: content;
 }
 .card-item-4 {
     width: 12%;
@@ -172,11 +165,3 @@
     border-radius: 7px;
     height: auto;
 }
-
-.card-item-4:hover{
-    transform: scale(1.1);
-}
-
-
-
-
